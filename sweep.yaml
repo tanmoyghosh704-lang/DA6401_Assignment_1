@@ -1,0 +1,29 @@
+program: src/train.py
+method: bayes
+metric:
+  name: val_accuracy
+  goal: maximize
+command:
+  - "C:\\python3_10_11\\DA6401_Assignment_1\\.venv\\Scripts\\python.exe"
+  - "-m"
+  - "src.train"
+  - ${args}
+parameters:
+  dataset:
+    value: "mnist"
+  epochs:
+    values: [5, 10]
+  batch_size:
+    values: [16, 32, 64]
+  loss:
+    values: ["cross_entropy", "mean_squared_error"]
+  optimizer:
+    values: ["sgd", "momentum", "nag", "rmsprop", "adam", "nadam"]
+  learning_rate:
+    values: [0.01, 0.001, 0.0001]
+  activation:
+    values: ["sigmoid", "tanh", "relu"]
+  weight_init:
+    values: ["random", "xavier"]
+  weight_decay:
+    values: [0.0, 0.0005]
