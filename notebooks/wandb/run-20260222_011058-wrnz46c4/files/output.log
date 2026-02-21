@@ -1,0 +1,8 @@
+Data Loaded Successfully: mnist
+Train Data Shape: (54000, 784), Labels Shape: (54000, 10)
+Validation Data Shape: (6000, 784), Labels Shape: (6000, 10)
+Test Data Shape: (10000, 784), Labels Shape: (10000, 10)
+Data Loaded Successfully: mnist
+Train Data Shape: (54000, 784), Labels Shape: (54000, 10)
+Validation Data Shape: (6000, 784), Labels Shape: (6000, 10)
+Test Data Shape: (10000, 784), Labels Shape: (10000, 10)
