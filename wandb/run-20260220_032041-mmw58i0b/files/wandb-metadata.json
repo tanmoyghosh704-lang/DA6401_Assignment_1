@@ -1,0 +1,49 @@
+{
+  "os":  "Windows-10-10.0.26200-SP0",
+  "python":  "CPython 3.10.11",
+  "startedAt":  "2026-02-19T21:50:41.298663Z",
+  "args":  [
+    "--activation=relu",
+    "--batch_size=16",
+    "--dataset=mnist",
+    "--epochs=10",
+    "--learning_rate=0.0001",
+    "--loss=cross_entropy",
+    "--optimizer=nadam",
+    "--weight_decay=0",
+    "--weight_init=xavier"
+  ],
+  "program":  "-m src.train",
+  "git":  {
+    "remote":  "https://github.com/tanmoyghosh704-lang/DA6401_Assignment_1.git",
+    "commit":  "23d18a3ed8df607296ca3da73d6fa8fbcc6bf7c2"
+  },
+  "email":  "tanmoyghosh704@gmail.com",
+  "root":  "C:\\python3_10_11\\DA6401_Assignment_1",
+  "host":  "TANMOY",
+  "executable":  "C:\\python3_10_11\\DA6401_Assignment_1\\.venv\\Scripts\\python.exe",
+  "cpu_count":  6,
+  "cpu_count_logical":  12,
+  "gpu":  "NVIDIA GeForce GTX 1650",
+  "gpu_count":  1,
+  "disk":  {
+    "/":  {
+      "total":  "509722226688",
+      "used":  "395665166336"
+    }
+  },
+  "memory":  {
+    "total":  "14877257728"
+  },
+  "gpu_nvidia":  [
+    {
+      "name":  "NVIDIA GeForce GTX 1650",
+      "memoryTotal":  "4294967296",
+      "cudaCores":  896,
+      "architecture":  "Turing",
+      "uuid":  "GPU-a16d2db4-5e71-e067-816b-1f1149755cc7"
+    }
+  ],
+  "cudaVersion":  "12.5",
+  "writerId":  "7ce0pynyxouzh82gzftg7zzqw1kr5s6f"
+}

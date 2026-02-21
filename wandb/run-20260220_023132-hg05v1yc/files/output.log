@@ -1,0 +1,17 @@
+Data Loaded Successfully: mnist
+Train Data Shape: (54000, 784), Labels Shape: (54000, 10)
+Validation Data Shape: (6000, 784), Labels Shape: (6000, 10)
+Test Data Shape: (10000, 784), Labels Shape: (10000, 10)
+Building Neural Network...
+Epoch 1/10, Loss: 0.1811, Val Acc: 94.08%
+Epoch 2/10, Loss: 0.0785, Val Acc: 95.67%
+Epoch 3/10, Loss: 0.0584, Val Acc: 96.15%
+Epoch 4/10, Loss: 0.0465, Val Acc: 96.70%
+Epoch 5/10, Loss: 0.0386, Val Acc: 97.07%
+Epoch 6/10, Loss: 0.0329, Val Acc: 97.13%
+Epoch 7/10, Loss: 0.0272, Val Acc: 97.53%
+Epoch 8/10, Loss: 0.0232, Val Acc: 97.38%
+Epoch 9/10, Loss: 0.0199, Val Acc: 97.55%
+Epoch 10/10, Loss: 0.0171, Val Acc: 97.65%
+Saving model weights and configuration...
+Training Complete! best_model.npy and best_config.json have been saved.

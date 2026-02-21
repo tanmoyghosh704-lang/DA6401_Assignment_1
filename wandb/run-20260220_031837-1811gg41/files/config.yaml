@@ -1,0 +1,93 @@
+_wandb:
+    value:
+        cli_version: 0.25.0
+        e:
+            26exed3i5rp61kvlvxep7gh66zva7jg1:
+                args:
+                    - --activation=relu
+                    - --batch_size=16
+                    - --dataset=mnist
+                    - --epochs=10
+                    - --learning_rate=0.0001
+                    - --loss=cross_entropy
+                    - --optimizer=adam
+                    - --weight_decay=0
+                    - --weight_init=xavier
+                cpu_count: 6
+                cpu_count_logical: 12
+                cudaVersion: "12.5"
+                disk:
+                    /:
+                        total: "509722226688"
+                        used: "395664818176"
+                email: tanmoyghosh704@gmail.com
+                executable: C:\python3_10_11\DA6401_Assignment_1\.venv\Scripts\python.exe
+                git:
+                    commit: 23d18a3ed8df607296ca3da73d6fa8fbcc6bf7c2
+                    remote: https://github.com/tanmoyghosh704-lang/DA6401_Assignment_1.git
+                gpu: NVIDIA GeForce GTX 1650
+                gpu_count: 1
+                gpu_nvidia:
+                    - architecture: Turing
+                      cudaCores: 896
+                      memoryTotal: "4294967296"
+                      name: NVIDIA GeForce GTX 1650
+                      uuid: GPU-a16d2db4-5e71-e067-816b-1f1149755cc7
+                host: TANMOY
+                memory:
+                    total: "14877257728"
+                os: Windows-10-10.0.26200-SP0
+                program: -m src.train
+                python: CPython 3.10.11
+                root: C:\python3_10_11\DA6401_Assignment_1
+                startedAt: "2026-02-19T21:48:37.701331Z"
+                writerId: 26exed3i5rp61kvlvxep7gh66zva7jg1
+        m: []
+        python_version: 3.10.11
+        t:
+            "1":
+                - 2
+                - 3
+                - 5
+                - 53
+            "2":
+                - 2
+                - 3
+                - 5
+                - 53
+            "3":
+                - 2
+                - 13
+                - 14
+                - 16
+            "4": 3.10.11
+            "5": 0.25.0
+            "8":
+                - 3
+            "12": 0.25.0
+            "13": windows-amd64
+activation:
+    value: relu
+batch_size:
+    value: 16
+dataset:
+    value: mnist
+epochs:
+    value: 10
+hidden_size:
+    value:
+        - 128
+        - 128
+        - 128
+learning_rate:
+    value: 0.0001
+loss:
+    value: cross_entropy
+num_layers:
+    value: 3
+optimizer:
+    value: adam
+weight_decay:
+    value: 0
+weight_init:
+    value: xavier

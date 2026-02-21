@@ -1,7 +1,7 @@
 {
-    "dataset": "fashion_mnist",
+    "dataset": "mnist",
     "epochs": 10,
-    "batch_size": 16,
+    "batch_size": 32,
     "loss": "cross_entropy",
     "optimizer": "nadam",
     "learning_rate": 0.001,
@@ -12,6 +12,6 @@
         128,
         128
     ],
-    "activation": "sigmoid",
+    "activation": "relu",
     "weight_init": "xavier"
 }
