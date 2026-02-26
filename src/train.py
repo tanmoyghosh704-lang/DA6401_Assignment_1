@@ -28,7 +28,8 @@ def main():
     run_name = f"hiden_ac-{args.activation}_hs-{args.num_layers}_epc-{args.epochs}_hl-{args.hidden_size[0]}_wd-{args.weight_decay}_learning_rate-{args.learning_rate}_opt-{args.optimizer}_bs-{args.batch_size}_wi-{args.weight_init}"
     
     
-    wandb.init(project="TANMOY_GHOSH_MA25M026_Assignment_1", name=run_name, config=vars(args))
+    
+    wandb.init(project="DA6401_Assignment_1-src", name=run_name, config=vars(args))
     
     
     (X_train, y_train), (X_valid, y_valid), (X_test, y_test) = load_and_preprocess_data(
@@ -60,6 +61,9 @@ def main():
             epoch_loss += batch_loss * X_batch.shape[0]
             
             model.backward(y_batch, y_pred)
+            
+            first_layer_grad_norm = np.linalg.norm(model.layers[0].grad_W)
+
             model.update_weights()
             
         
@@ -75,7 +79,8 @@ def main():
             'train_loss': train_loss,
             'val_loss': val_loss,
             'train_accuracy': train_acc * 100,
-            'val_accuracy': val_acc * 100
+            'val_accuracy': val_acc * 100,
+            'first_layer_grad_norm': first_layer_grad_norm 
         })
 
     

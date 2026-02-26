@@ -1,0 +1,13 @@
+{"time":"2026-02-26T23:26:57.229758+05:30","level":"INFO","msg":"stream: starting","core version":"0.25.0"}
+{"time":"2026-02-26T23:26:58.680706+05:30","level":"INFO","msg":"stream: created new stream","id":"1vgeuamq"}
+{"time":"2026-02-26T23:26:58.6813007+05:30","level":"INFO","msg":"handler: started","stream_id":"1vgeuamq"}
+{"time":"2026-02-26T23:26:58.6828504+05:30","level":"INFO","msg":"stream: started","id":"1vgeuamq"}
+{"time":"2026-02-26T23:26:58.6828504+05:30","level":"INFO","msg":"writer: started","stream_id":"1vgeuamq"}
+{"time":"2026-02-26T23:26:58.6828504+05:30","level":"INFO","msg":"sender: started","stream_id":"1vgeuamq"}
+{"time":"2026-02-26T23:28:19.9557541+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/tanmoyghosh704-indian-institute-of-technology-madras/DA6401_Assignment_1-src/1vgeuamq/file_stream\": read tcp 192.168.0.173:55017->35.186.228.49:443: wsarecv: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond."}
+{"time":"2026-02-26T23:28:32.7329208+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2026-02-26T23:28:33.4557903+05:30","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2026-02-26T23:28:33.4606134+05:30","level":"INFO","msg":"stream: closing","id":"1vgeuamq"}
+{"time":"2026-02-26T23:28:33.4606134+05:30","level":"INFO","msg":"handler: closed","stream_id":"1vgeuamq"}
+{"time":"2026-02-26T23:28:33.4615024+05:30","level":"INFO","msg":"sender: closed","stream_id":"1vgeuamq"}
+{"time":"2026-02-26T23:28:33.4615024+05:30","level":"INFO","msg":"stream: closed","id":"1vgeuamq"}
