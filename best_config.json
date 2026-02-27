@@ -2,15 +2,12 @@
     "dataset": "mnist",
     "epochs": 10,
     "batch_size": 16,
-    "loss": "cross_entropy",
-    "optimizer": "adam",
+    "loss": "mean_squared_error",
+    "optimizer": "nadam",
     "learning_rate": 0.001,
     "weight_decay": 0.0,
-    "num_layers": 6,
+    "num_layers": 3,
     "hidden_size": [
-        128,
-        128,
-        128,
         128,
         128,
         128
